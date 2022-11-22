@@ -1,0 +1,70 @@
+.my_nav{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255 255 255 / 42%) !important;
+    backdrop-filter: blur(8px);
+}
+.main-header{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.default-header{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.default-header-text-holder{
+   color: white; 
+}
+
+.default-header-text-holder h1{
+    font-size: 2em;
+}
+
+.header-text-holder, .subscribe-holder{
+    text-align: center;
+    color: white;
+}
+
+.my-card h3{
+    font-size: 1.2em;
+}
+
+.home-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-body-content, .my-card{
+    margin-bottom: 25px;
+    transition-duration: 0.4s;
+}
+
+.default-body-content .list-group .list-group-item h3{
+    font-size: 1.3em;
+}
+
+.default-body-content .list-group a{
+    color: black;
+    padding-top: 20px;
+}
+
+.my-card:hover{
+    box-shadow:2px 2px 12px rgba(0, 0, 0, 3);
+    transition-duration: 0.4s;
+}
+
+.main-footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: black;
+}
+
+.main-footer p{
+    margin: 0px;
+}
